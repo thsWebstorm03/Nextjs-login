@@ -1,0 +1,14 @@
+{
+   "env": {
+      "development": {
+         "plugins": [
+            [
+               "@babel/plugin-transform-react-jsx",
+               {
+                  "throwIfNamespace": false
+               }
+            ]
+         ]
+      }
+   }
+}
